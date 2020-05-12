@@ -1,0 +1,97 @@
+body {
+	color: #fff;
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-position: top center;
+	margin: 0;
+	font-family: 'Helvetica', 'Arial', Sans Serif;
+	font-size: 1em;
+}
+
+
+.content {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+.intro {
+	padding: 0 30px 10px 30px;
+}
+
+h1 {
+	transform: skew(0, -5deg);
+	text-align: center;
+}
+
+.stephForm {
+	color: #000;
+	transform: skew(0, -5deg);
+	padding: 5px 30px;
+	margin: 0 0 50px 0;
+	text-align: center;
+}
+
+.stephForm input {
+	background-color: rgba(255,255,255,0.8);
+	font-size: 2rem;
+	padding: 14px;
+}
+
+#stephAnswer{
+	color: #c00;
+	font-weight: bold;
+	font-size: 2rem;
+	transform: skew(0, -5deg);
+	padding: 5px 30px;
+	margin: 0 0 50px 0;
+	text-align: center;
+}
+
+.hideClass {
+	display: none;
+}
+
+#stephLink{
+	background-color: rgba(255,255,255,0.8);
+	color: #000;
+	transform: skew(0, -5deg);
+	padding: 5px 30px;
+	margin: 0 0 50px 0;
+	text-align: center;
+}
+
+.stephForm h2, .stephForm p {
+	transform: skew(0, 0);
+}
+
+
+.stephButtonHolder {
+	text-align: center;
+}
+
+.stephButton{
+	display: inline-block;
+	padding: 9px 20px;
+	background-image: linear-gradient(#ff2c02, #dc1202);
+	border-radius: 3px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+	box-shadow: 2px 2px #000;
+	margin: 0 2px 2px 0;
+}
+
+.stephButton:hover {
+	margin: 2px 0 0 2px;
+}
+
+
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	.stephButton {
+		font-size: 2em;
+		padding: 20px 40px;
+	}
+}
+
