@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Steph Watkins is a Silly</title>
-  <meta name="description" content="Steph Watkins is a Silly">
+  <title>Steph Watkins is a silly</title>
+  <meta name="description" content="Steph Watkins is a silly">
   <meta name="author" content="Steph Watkins">
 
   <link rel="stylesheet" href="assets/styles.css">
